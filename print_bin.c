@@ -4,7 +4,7 @@
 *  * _bin - function to print binary
 *   * @bin: list being passed
 *    * Return: updated count return
-*     */
+*/
 int _bin(va_list bin)
 {
 int count = 0, i;
@@ -18,7 +18,7 @@ n /= 2;
 count++;
 }
 count++;
-arr = malloc(count * sizeof(int));
+arr = malloc(count *sizeof(int));
 if (arr == NULL)
 {
 free(arr);

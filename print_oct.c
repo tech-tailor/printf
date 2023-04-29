@@ -4,7 +4,7 @@
 *  * _oct - function to print octal
 *   * @octo: list being passed
 *    * Return: updated count
-*     */
+*/
 int _oct(va_list octo)
 {
 int count = 0, i;
@@ -18,7 +18,7 @@ n /= 8;
 count++;
 }
 count++;
-arr = malloc(count * sizeof(int));
+arr = malloc(count *sizeof(int));
 for (i = 0; i < count; i++)
 {
 arr[i] = tmp % 8;

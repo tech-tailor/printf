@@ -4,7 +4,7 @@
 *  * _ui - unsigned int print to stdout
 *   * @unsign: list being passed
 *    * Return: char count
-*     */
+*/
 int _ui(va_list unsign)
 {
 unsigned int n;

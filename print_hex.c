@@ -6,7 +6,7 @@
 *    * @hex: base of 16 being passed
 *     * @alpha: Char 'A' to 'F' or 'a' to 'f'
 *      * Return: number of chars printed
-*       */
+*/
 int _hex_str(unsigned int n, unsigned int hex, char alpha)
 {
 unsigned int a = n % hex;
@@ -34,7 +34,7 @@ return (_hex_str(b, hex, alpha) + _putchar(c));
 *  * _hex_l - printing lower case hexa
 *   * @hexa: argument recieved
 *    * Return: no of char printed
-*     */
+*/
 int _hex_l(va_list hexa)
 {
 return (_hex_str(va_arg(hexa, unsigned int), 16, 'a'));
@@ -44,7 +44,7 @@ return (_hex_str(va_arg(hexa, unsigned int), 16, 'a'));
 *  * _hex_u - printing upper case hexa
 *   * @hexa: argument recieved
 *    * Return: no. of char printed
-*     */
+*/
 int _hex_u(va_list hexa)
 {
 return (_hex_str(va_arg(hexa, unsigned int), 16, 'A'));
