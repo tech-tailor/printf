@@ -9,7 +9,7 @@
  *  * struct fmt - function to check for formats
  *   * @type: The format to print
  *    * @f: The print function to use
- *     */
+ */
 typedef struct fmt
 {
 		char *type;
